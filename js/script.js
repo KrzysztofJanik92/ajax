@@ -15,7 +15,7 @@ function loadData(){
    
    $greeting.text('So, you want to live at ' + address + '?');
    
-   var streetviewUrl = 'http://maps.googleapis.com/maps/api/streetview?size=600x400&location=' + address + '';
+   var streetviewUrl = 'https://maps.googleapis.com/maps/api/streetview?size=600x400&location=' + address + '';
 
    var bodyBack = document.getElementsByTagName("BODY")[0];
    
@@ -25,7 +25,7 @@ function loadData(){
    
    $.ajax({
       'type': 'GET',
-      'url': 'http://api.nytimes.com/svc/search/v2/articlesearch.json',
+      'url': 'https://api.nytimes.com/svc/search/v2/articlesearch.json',
       data:{
          'q': cityStr,
          'response-format': "jsonp",
