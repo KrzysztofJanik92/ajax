@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+   <title>ajax project</title>
+</head>
+<body>
+   
+   <div id="bck">
+      <form id="form-container">
+            <input type="text" id="street" placeholder="Street"/>
+         <br />
+            <input type="text" id="city" placeholder="City" />
+         <br />
+         <button onClick="loadData()">submit</button>
+      </form>
+
+      <hr>
+
+      <div id="back-box">
+         <h2 id="greeting" class="greeting"><span>So, where do you want to live?</span></h2>
+         <div class="wikipedia-container">
+            <h3 id="wikipedia-header"><span>Relevant Wikipedia Links</span></h3>
+            <ul id="wikipedia-links"></ul>
+         </div>
+         <div class="nytimes-container">
+            <h3 id="nytimes-header"><span>Relevant New York Times Links</span></h3>
+            <ul id="nytimes-articles" class="article-list">
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

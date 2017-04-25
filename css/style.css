@@ -1,0 +1,85 @@
+body {
+   background-image: url('../img/photo1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+.form {
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #fff;
+}
+
+#bck {
+   position: absolute;
+   width: 100%;
+}
+
+#back-box {
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wikipedia-header{
+   color: #fff;
+}
+
+#nytimes-header{
+   color: #fff;
+}
+
+.wikipedia-container {
+   text-decoration: none;
+   width: 50%;
+   text-align: center;
+   float: left;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wikipedia-container ul li a {
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+   list-style: none;
+}
+
+.wikipedia-container p {
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+}
+
+#wikipedia-links ul li {
+   list-style: none;
+}
+
+#wikipedia-links a {
+   color: #fff;
+}
+
+.nytimes-container {
+   float: left;
+   text-decoration: none;
+   width: 50%;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nytimes-container ul li a {
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+   list-style: none;
+}
+
+.nytimes-container p {
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+}
+
+#greeting {
+   text-align: center;
+   color: #fff;
+   padding: 20px;
+}
