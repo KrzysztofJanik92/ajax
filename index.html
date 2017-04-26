@@ -9,20 +9,16 @@
 </head>
 <body>
    
-   <div id="bck">
-      <form id="form-container">
-         <form>
-            <input type="text" id="street" placeholder="Street"/>
-         </form>
-         <br />
-         <form>
-            <input type="text" id="city" placeholder="City" />
-         </form>
-         <br />
+   <div id="container">
+      
+      <div id="form-container">
+         <input type="text" id="street" placeholder="Street"/>
+         <input type="text" id="city" placeholder="City" />
+         
          <button onClick="loadData()">submit</button>
-      </form>
+      </div>
 
-      <hr>
+      <hr />
 
       <div id="back-box">
          <h2 id="greeting" class="greeting"><span>So, where do you want to live?</span></h2>
@@ -36,6 +32,7 @@
             </ul>
          </div>
       </div>
+      
    </div>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
