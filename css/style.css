@@ -22,7 +22,6 @@ body {
 }
 
 #container {
-   position: absolute;
    width: 100%;
 }
 
@@ -113,6 +112,12 @@ button:hover {
    text-align: center;
    color: #fff;
    padding: 20px;
+}
+
+#error1 {
+   padding: 10px;
+   color: #f00000;
+   font-weight: 600;
 }
 
 
