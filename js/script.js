@@ -5,6 +5,7 @@ function loadData(){
    var $nytHeaderElem = $('#nytimes-header');
    var $nytElem = $('#nytimes-articles');
    var $greeting = $('#greeting');
+   var $error1 = $('#error1'); 
    
    $wikiElem.text("");
    $nytElem.text("");
@@ -14,7 +15,7 @@ function loadData(){
    var address = streetStr + ', ' + cityStr;
    
    if ( streetStr.length == 0 || cityStr.length == 0){
-       $greeting.text('Text fields can not be empty!');
+       $error1.text('Text fields can not be empty!');
    }else{ 
    
       $greeting.text('So, you want to live at ' + address + '?');
