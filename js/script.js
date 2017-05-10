@@ -110,7 +110,7 @@ function wikiCallback(error,data, city){
                for (var i = 0; i < data.length; i++) 
                    {
                        articleStr = data[i];
-                       var url = 'http://en.wikipedia.org/wiki/' + articleStr;
+                       var url = 'https://en.wikipedia.org/wiki/' + articleStr;
                        $wikiElem.append('<li><a href="'+url+'">'+articleStr+'</a></li>');
 
                    }
