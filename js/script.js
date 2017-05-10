@@ -53,7 +53,7 @@ function getData(streetField, cityField){
 }
 
 function getGoogleData(adress){
-	return 'http://maps.googleapis.com/maps/api/streetview?size=600x400&key=AIzaSyDpFmKn0ixCuDZQ2m8wLrp0Az0TWZlgyr4&location=' + adress + '';
+	return 'https://maps.googleapis.com/maps/api/streetview?size=600x400&key=AIzaSyDpFmKn0ixCuDZQ2m8wLrp0Az0TWZlgyr4&location=' + adress + '';
 	
 }
 function getWikiData(city){
