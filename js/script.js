@@ -17,14 +17,14 @@ function loadData(){
 	var cityStr = $('#city').val();
 	var address = streetStr + ', ' + cityStr;
 	
-	if(streetStr.length != 0 || cityStr.length != 0){
-		$greeting.text('So, you want to live at ' + address + '?');
-		getGoogleData(address);
-		getData(cityStr);
+	if(streetStr.length == 0 || cityStr.length == 0){
+		$error1.text("Fields cannot be empty");
 	}
 	else
 	{
-		$error1.text("Fields cannot be empty");
+		$greeting.text('So, you want to live at ' + address + '?');
+		getGoogleData(address);
+		getData(cityStr);
 	}
 }
 
